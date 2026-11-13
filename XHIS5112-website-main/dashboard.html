@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NovaTech Service Portal | Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+  <img
+    src="images/novatech-logo.png"
+    alt="NovaTech Logo"
+    class="site-logo"
+  >
+  <span class="logo-text">
+    Nova<span class="logo-accent">Tech</span>
+  </span>
+</a>
+      <nav class="nav" id="nav">
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="submit-ticket.html">Submit a Ticket</a></li>
+          <li><a href="knowledge-base.html">Knowledge Base</a></li>
+          <li><a href="team.html">Team</a></li>
+          <li><a href="dashboard.html" class="active">Dashboard</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" id="navToggle"
+        aria-label="Toggle navigation"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <section class="page-head">
+    <div class="container">
+      <h1>Performance Dashboard</h1>
+      <p>Live and simulated metrics from the NovaTech service desk, sourced from the Asset Register and Ticket
+        Statistics workbook.</p>
+    </div>
+  </section>
+<br>
+
+<section class="section">
+  <div class="container">
+    <h2>Our Performance</h2>
+    <p>NovaTech IT Support Service Desk Metrics</p>
+
+    <div class="card-grid">
+      <div class="card"><h3>Total Tickets</h3><p>30</p></div>
+      <div class="card"><h3>Open Tickets</h3><p>5</p></div>
+      <div class="card"><h3>Resolved Tickets</h3><p>21</p></div>
+      <div class="card"><h3>Pending Tickets</h3><p>4</p></div>
+      <div class="card"><h3>Average Resolution Time</h3><p>3.523809524</p></div>
+    </div>
+
+
+  </div>
+</section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-tag">Key metrics</span>
+        <h2>Service desk at a glance</h2>
+        <p>Tickets logged, resolved, and in progress, plus the metrics behind our SLA performance.</p>
+      </div>
+      <div class="dash-grid">
+        <div class="dash-card">
+          <h3>Tickets Logged per Category</h3><img src="./images/Picture1.png"
+            alt="Bar chart of tickets logged per category">
+        </div>
+        <div class="dash-card">
+          <h3>Ticket Status Overview</h3><img src="./images/Picture2.png" alt="Bar chart of ticket statuses">
+        </div>
+        <div class="dash-card">
+          <h3>Average Resolution Time per Technician</h3><img src="./images/Picture3.png"
+            alt="Bar chart of average resolution time per technician">
+        </div>
+        <div class="dash-card">
+          <h3>Tickets Handled per Technician</h3><img src="./images/Picture4.png"
+            alt="Bar chart of tickets handled per technician">
+        </div>
+        <div class="info-note dash-note">
+          <strong>Data source:</strong> these visuals are driven by the Asset Register &amp; Ticket Statistics workbook
+          available on the
+          <a href="knowledge-base.html" style="color:var(--blue); font-weight:600;">Knowledge Base</a> page.
+          When the Power BI version is published, it will be embedded here with interactive slicers for category,
+          technician, and period.
+        </div>
+      </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="index.html" class="logo"><span class="logo-mark">NT</span><span class="logo-text">Nova<span
+              class="logo-accent">Tech</span></span></a>
+        <p>Reliable IT support for modern business.</p>
+      </div>
+      <div>
+        <h4>Portal</h4>
+        <ul>
+          <li><a href="submit-ticket.html">Submit a Ticket</a></li>
+          <li><a href="knowledge-base.html">Knowledge Base</a></li>
+          <li><a href="dashboard.html">Dashboard</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>SLA</h4>
+        <ul>
+          <li>Level 1: within 2 hours</li>
+          <li>Level 2: within 24 hours</li>
+          <li>Level 3: within 48 hours</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li>support@novatech.co.za</li>
+          <li>Ext 2000</li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; 2026 NovaTech Solutions. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
